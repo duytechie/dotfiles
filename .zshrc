@@ -104,4 +104,19 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias proj="cd /mnt/c/Users/Cherry/Google\ Drive/projects/"
 alias chatcli="cd /mnt/c/Users/Cherry/Documents/Github/chat-cli"
 alias learnpy="cd Documents/GitHub/learn-python"
-DISPLAY=localhost:0.0
+#DISPLAY=localhost:0.0
+
+# nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+# xwindow server
+export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+
+# history stuff with tmux
+export PROMPT_COMMAND="history -a; history -n"
+
+# history location and size
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=100000
+SAVEHIST=100000
