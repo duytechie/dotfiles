@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/sodzach/.oh-my-zsh"
+export ZSH="/home/cherry/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -120,3 +120,6 @@ export PROMPT_COMMAND="history -a; history -n"
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=100000
 SAVEHIST=100000
+
+# remove directory highlight
+export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
