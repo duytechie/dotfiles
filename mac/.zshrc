@@ -114,3 +114,5 @@ SAVEHIST=100000
 export PATH="/usr/local/opt/node@14/bin:$PATH"
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 
+# Enable starship
+eval "$(starship init zsh)"
