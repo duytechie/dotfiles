@@ -115,7 +115,7 @@ export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:" alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(starship init zsh)"
 
 # Make pbcopy work
-alias pbcopy="xclip -sel clip"
+# alias pbcopy="xclip -sel clip"
 
 export XDG_CONFIG_HOME="$HOME"/.config
 
