@@ -1,9 +1,9 @@
-ZSH_DISABLE_COMPFIX=true
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/sodzach/.oh-my-zsh"
+# export ZSH="/Users/sodzach/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -100,19 +100,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 # Format for Docker ls
-FORMAT="\nID\t{{.ID}}\nIMAGE\t{{.Image}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.RunningFor}}\nSTATUS\t{{.Status}}\nPORTS\t{{.Ports}}\nNAMES\t{{.Names}}\n"
+# FORMAT="\nID\t{{.ID}}\nIMAGE\t{{.Image}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.RunningFor}}\nSTATUS\t{{.Status}}\nPORTS\t{{.Ports}}\nNAMES\t{{.Names}}\n"
 
 # history stuff with tmux
-export PROMPT_COMMAND="history -a; history -n"
+# export PROMPT_COMMAND="history -a; history -n"
 
 # history location and size
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=100000
 SAVEHIST=100000
 
-export PATH="/usr/local/opt/node@14/bin:$PATH"
-export PATH="/usr/local/opt/llvm/bin:$PATH"
+# export PATH="/usr/local/opt/node@14/bin:$PATH"
+# export PATH="/usr/local/opt/llvm/bin:$PATH"
 
 # Enable starship
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
