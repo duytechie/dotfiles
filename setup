@@ -23,6 +23,15 @@ curl -sS https://starship.rs/install.sh | sh
 # brew option
 # brew install starship neovim tmux
 
+# Install Oh my zsh
+# sudo dnf install zsh
+
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
 # linking config
 ln -sf "$PWD/nvim" "$XDG_CONFIG_HOME"/nvim
 echo "Linking nvim"
