@@ -116,4 +116,7 @@ SAVEHIST=100000
 # export PATH="/usr/local/opt/llvm/bin:$PATH"
 
 # Enable starship
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
+
+# Aliases
+alias v=nvim
