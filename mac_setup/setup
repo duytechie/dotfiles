@@ -16,7 +16,7 @@ echo "Creating config directories"
 # echo "Installing Nix packages"
 
 # Starship Installing
-curl -sS https://starship.rs/install.sh | sh
+# curl -sS https://starship.rs/install.sh | sh
 # brew option
 
 # Install Oh my zsh
