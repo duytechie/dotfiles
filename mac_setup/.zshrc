@@ -126,3 +126,5 @@ alias v=nvim
 alias github=$HOME/Documents/github
 alias dotf=$HOME/Documents/github/dotfiles
 alias maison="$HOME/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/La\ maison"
+alias next="$HOME/Documents/github/nextjs-dashboard"
+alias nvconf="$HOME/.config/nvim"
